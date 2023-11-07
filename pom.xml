@@ -12,7 +12,7 @@
   <name>Jetty :: Schemas</name>
   <scm>
     <connection>scm:git:https://github.com/jetty/${jetty.git.repo}.git</connection>
-    <developerConnection>scm:git:git@github.com:eclipse/${jetty.git.repo}.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:jetty/${jetty.git.repo}.git</developerConnection>
     <tag>HEAD</tag>
     <url>https://github.com/jetty/${jetty.git.repo}</url>
   </scm>
