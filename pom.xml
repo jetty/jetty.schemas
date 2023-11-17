@@ -11,14 +11,11 @@
   <packaging>jar</packaging>
   <name>Jetty :: Schemas</name>
   <scm>
-    <connection>scm:git:https://github.com/jetty/${jetty.git.repo}.git</connection>
-    <developerConnection>scm:git:git@github.com:jetty/${jetty.git.repo}.git</developerConnection>
+    <connection>scm:git:https://github.com/jetty/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:git@github.com:jetty/${project.artifactId}.git</developerConnection>
     <tag>HEAD</tag>
-    <url>https://github.com/jetty/${jetty.git.repo}</url>
+    <url>https://github.com/jetty/${project.artifactId}</url>
   </scm>
-  <properties>
-    <jetty.git.repo>jetty.schemas</jetty.git.repo>
-  </properties>
 
   <repositories>
     <repository>
