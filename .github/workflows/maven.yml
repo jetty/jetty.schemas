@@ -11,4 +11,4 @@ jobs:
     name: Verify
     uses: jetty/.github/.github/workflows/maven-ci.yml@main
     with:
-      jdk-matrix: '[ "8", "11" ]'
+      jdk-matrix: '[ "11", "17" ]'
