@@ -18,7 +18,7 @@
     <url>https://github.com/jetty/${jetty.git.repo}</url>
   </scm>
   <properties>
-    <jdk.version.minimum>8</jdk.version.minimum>
+    <jdk.version.minimum>11</jdk.version.minimum>
     <jetty.git.repo>jetty-schemas</jetty.git.repo>
   </properties>
   <build>
@@ -42,7 +42,7 @@
           <instructions>
             <Bundle-SymbolicName>org.eclipse.jetty.schemas;singleton:=true</Bundle-SymbolicName>
             <Bundle-Name>Jetty Servlet Schemas</Bundle-Name>
-            <Bundle-RequiredExecutionEnvironment>JavaSE-1.7</Bundle-RequiredExecutionEnvironment>
+            <Bundle-RequiredExecutionEnvironment>JavaSE-11</Bundle-RequiredExecutionEnvironment>
             <_nouses>true</_nouses>
             <Export-Package>javax.servlet.resources;version="4.0",
               javax.servlet.jsp.resources;version="4.0",
